@@ -20,9 +20,9 @@ console.log(wordInvert);
 
 // creare una funzione che confronti i due array
 
-function comapreTwoArray(word, wordInvert) {
+function compareTwoArray(usWord, wordInv) {
     let result = "";
-    if (word.toString() === wordInvert.toString()) {
+    if (usWord.toString() === wordInv.toString()) {
         result = "palindroma"
     } else {
         result = "not palindroma"
@@ -30,6 +30,6 @@ function comapreTwoArray(word, wordInvert) {
     return result;
 }
 
-compare = comapreTwoArray(word, wordInvert);
+compare = compareTwoArray(word, wordInvert);
 
 console.log(compare);
